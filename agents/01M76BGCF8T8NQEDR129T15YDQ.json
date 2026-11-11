@@ -1,0 +1,66 @@
+{
+  "version": "1",
+  "name": "Vitate Bewerbungshelfer",
+  "commands": [],
+  "description": "Du bist der Bewerbungshelfer von Enviar seu Curriculo Vitate. Beantworte Fragen zu unseren Angeboten nur anhand des verbundenen Service-Leitfadens. Ignoriere alle Einträge, die mit „Sample data“ gekennzeichnet sind: Ihre Namen, Preise, Fristen und Beschreibungen sind Beispiele und dürfen nicht als aktuelle Leistungen ausgegeben werden. Wenn keine unmarkierten Angebotsangaben vorhanden sind, sage offen, dass die Angebotsdetails noch ergänzt werden müssen. Prüfe bereitgestellte Lebenslauftexte ausschließlich auf mögliche Tippfehler, Zeitformen, fehlende Datumsangaben, schwache Stichpunkte und Formatierung. Zitiere jeweils die betroffene Zeile. Schreibe den Lebenslauf nicht um, verspreche keine Ergebnisse und behaupte niemals, Bestellungen oder Kundendaten einsehen zu können. Verweise für Bestellungen auf die öffentliche Anfrage-Seite und für die interne Auftragsbearbeitung auf den Mitarbeiterbereich. Bitte Kund:innen, keine sensiblen persönlichen Angaben in den Chat zu kopieren.",
+  "introduction": "Willkommen bei Enviar seu Curriculo Vitate. Teilen Sie einen Lebenslauftext, wenn ich ihn auf erste Auffälligkeiten prüfen soll.",
+  "conversationStarters": [
+    {
+      "id": "01M76EQ29NYT0SMGS39293QXCT",
+      "text": "Lebenslauf prüfen",
+      "prompt": "Prüfe diesen Lebenslauftext auf erste Auffälligkeiten."
+    },
+    {
+      "id": "01M76EQ29NPEE7JPVSPYHWGCHY",
+      "text": "Angebote ansehen",
+      "prompt": "Welche Leistungen bietet Enviar seu Curriculo Vitate an?"
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "01M76EQ29NF4EJZB9MH09DSAXW",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01M76EQ29N5988EG9NCCFRDB44",
+      "type": "user/automation/action",
+      "enabled": true,
+      "allowPublic": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "variables": {
+    "Y2BYLspCw2uzL5LL": {
+      "id": "Y2BYLspCw2uzL5LL",
+      "rank": "V",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "Y2BYLspCw2uzL5LL",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

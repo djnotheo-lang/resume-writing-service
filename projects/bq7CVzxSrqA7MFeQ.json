@@ -1,0 +1,4822 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "10000000-0000-4000-8000-000000000000",
+        "text": {
+          "ops": [
+            {
+              "insert": "TASKS.md"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "10000000-0000-4000-8000-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Destination",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "10000000-0000-4000-8000-000000000011",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Personalisieren der Resume-Service-App für „Enviar seu Curriculo Vitate“, mit eigenen statt Beispieldaten und Kundenzugang.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "10000000-0000-4000-8000-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Open decisions",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "10000000-0000-4000-8000-000000000021",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Konkrete eigene Angebote und Preise sind noch nicht genannt; die Angebotsliste wird leer angezeigt, bis sie eingetragen sind.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "10000000-0000-4000-8000-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Out of scope",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "10000000-0000-4000-8000-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Requirements ["
+                },
+                {
+                  "insert": "3",
+                  "attributes": {}
+                },
+                {
+                  "insert": "/3]"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "10000000-0000-4000-8000-000000000041",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "States: OPEN | BUILT(!evidence) DEFAULTED(@the default you chose) DECLARED(@what only the user can supply)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "10000000-0000-4000-8000-000000000042",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Marke und Name: „Enviar seu Curriculo Vitate“: BUILT - Markenname im Seitentitel und Kundenauftritt, Startseite rendert erfolgreich - closed 2026-11-1"
+                    },
+                    {
+                      "insert": "1 ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "2"
+                    },
+                    {
+                      "insert": "3",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": ":"
+                    },
+                    {
+                      "insert": "36",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " UTC"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "10000000-0000-4000-8000-000000000043",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Eigene statt Beispieldaten: "
+                    },
+                    {
+                      "insert": "DECLARED(@eigene Angebote, ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "Preise und Fristen fehlen; gekennzeichnete Altangebote bleiben im Projekt und werden in der Kundenansicht ausgeblendet) - closed 2026-11-1"
+                    },
+                    {
+                      "insert": "1 ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "2"
+                    },
+                    {
+                      "insert": "3",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": ":"
+                    },
+                    {
+                      "insert": "36",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " UTC"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "10000000-0000-4000-8000-000000000044",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Kund:innen als Zielgruppe: BUILT - deutsche Kundenanfrage auf / wird gerendert; der Mitarbeiterbereich liegt getrennt auf /staff - closed 2026-11-1"
+                    },
+                    {
+                      "insert": "1 ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "2"
+                    },
+                    {
+                      "insert": "3",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": ":"
+                    },
+                    {
+                      "insert": "36",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " UTC"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "10000000-0000-4000-8000-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Done",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "8d931df5-c443-44d1-9dd6-2bd9bdadeab5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-11-11 23:36 UTC - Kundenauftritt für Enviar seu Curriculo Vitate personalisiert",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "34f58c47-bfa6-47c4-9a39-d8e4dccb085a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "What changed: deutsche Kundenstartseite und Angebotsdarstellung auf Projektwerte umgestellt; Mitarbeiterbereich und Agententexte personalisiert.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "0932b4eb-da63-4cc5-981c-0b3f56ab98c2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Where it lives: Service guide, Orders und der Agent Vitate Bewerbungshelfer; die drei vorhandenen Flows bleiben unverändert deaktiviert.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d5fc8ed0-1563-469d-81af-0e88aea04ef2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Next: echte Leistungsangaben fehlen; das Formular und /staff bleiben unbestätigt, weil sie nicht im Preview übermittelt bzw. separat geöffnet wurden.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "a57cf9ad-06ed-4561-8b36-ad49d0f73ee5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-11-11 23:33 UTC - Primary Request and Intent [chat HQBZY4ZM2Q73]",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "d97d2ff8-b193-4341-ac4f-4e38a1aae6ae",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Primary Request and Intent:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "7218d3d4-f4e7-40b0-ba37-b470d4dedcf1",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Ausgangsanfrage auf Deutsch: „Machen Sie diese App zu meiner. Stellen Sie mir zuerst ein paar kurze Fragen.“",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "facc4d3c-1bce-4b5e-97bd-5f4615cb87ad",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Zuerst wurde nach Name/Marke, Umgang mit Beispieldaten und Zielgruppe gefragt. Die Antworten waren:",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "74bacf67-e11d-4834-baa8-6b4298152560",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Name/Marke: „Enviar seu Curriculo Vitate“",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "1cd0daa3-0340-466e-8e75-f33a88495600",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Daten: „Trocar pelos meus próprios dados“",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "0d7113f2-a8e5-4010-a6d6-8a91fa3a50e0",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Publikum: „Os meus clientes“ (Kund:innen)",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "b12e584c-cf17-4d35-bf75-357523e92e4f",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Die App soll deshalb als kundenorientierte Lebenslauf-Anfrage-App mit deutschen Oberflächentexten und dem gewählten portugiesischen Markennamen erscheinen. Es wurden keine echten Leistungsbeschreibungen oder Preise mitgeteilt.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "d5fb5915-3ed1-466f-bbbf-40162b07221f",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Die Beispielangebote im Projekt „",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Service guide",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/Y2BYLspCw2uzL5LL"
+                              }
+                            },
+                            {
+                              "insert": "“ sollten entfernt werden, aber der Löschversuch wurde vom System als vom Nutzer abgelehnt gemeldet. Die Einträge blieben unverändert; nicht erneut löschen oder danach fragen. Die App blendet beispielmarkierte Einträge derzeit aus.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "b9676964-f5cb-4055-81a6-69cd4ad64200",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Der veröffentlichte Zustand wurde nicht geändert. Die App ist laut Kontext weiterhin ein Entwurf.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "773ddc10-e615-4842-b620-613e29b40542",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Files and Code Sections: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "App-Dateien",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Agent",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Workspace-Daten",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Flows",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Weitere gelesene Dateien",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Memory/Plan",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "eb7fe503-e5e9-446f-8317-6e48236e59da",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/App.tsx",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "8ab12d77-b853-4fee-a51c-ee44b425930e",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Entfernte den Import von ./sample-data/runtime.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "5e21d566-e75b-42ca-a3ce-315d8c487e74",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Startseite bleibt öffentlich; /staff wird über StaffRoute in GenesisAuth eingebettet.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "c0e653a7-7eeb-4fd8-a90a-7e8a7e71cc14",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "StaffContent verwendet useAuth aus react-oidc-context; den Floating-Chat rendert es nur bei angemeldeten Mitarbeitenden.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "c58ae26b-77f2-417a-9500-f3fc337cafed",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Title setzt document.title auf Enviar seu Curriculo Vitate, document.documentElement.lang auf de und dir auf ltr.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "ea4c3206-43ad-4175-a91c-f3e034ffa5e3",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Seiten bleiben lazy geladen und werden mit GenesisSection isoliert.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "eec275ff-ce91-4eae-af18-8a6ce8215b8c",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Chat-Labels, Titel, Platzhalter und Hinweise sind deutsch.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "e3b0e22a-8622-4f7c-acd7-a692a084d934",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/pages/HomePage.tsx",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "b33542c6-739b-4d46-89bb-20a52721738b",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Ersetzt fest eingebaute Demo-Pakete, Beispielbestellung und Musterpreise durch eine Angebotsliste aus „Service guide“.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "e91ad6b9-0e32-4e2a-a1ab-49baffb06283",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Verwendet useLiveNodes(SERVICES) und filtert Beispielangebote:",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "e853e488-4689-4528-8524-689747ce8f2c",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Wenn keine nicht markierten Angebote vorhanden sind, zeigt die Kundenansicht einen ehrlichen Leerzustand und ermöglicht weiterhin eine individuelle, frei beschriebene Anfrage.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "eeb1f3a9-83fc-4dcf-9be8-d6c3364ac31f",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Das Formular verlangt Anliegen, Name, E-Mail und Lebenslaufdatei; Zielposition und Stellenlink bleiben optional.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "45b1538a-6bc3-4a2c-9b3b-3a15bd6007a1",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Direkter Schreibpfad:",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "04b6b115-aedb-4994-ac18-d04e160ef33f",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Oberflächentexte sind deutsch; das Formular lädt weiterhin reale Dateien mit uploadFile hoch und prüft Dateigröße sowie ignoredKeys.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "7a7c83e9-c1dc-476a-9c15-37b9c6a92ccc",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Sicherheitsformulierungen wurden so geändert, dass sie vor einer noch ausstehenden Zugriffskonfiguration keine nicht belegte Vertraulichkeit versprechen.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "16b11576-95a3-49c2-a66d-433f2a75110e",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/pages/StaffPage.tsx",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "16290a8c-326c-409a-9612-e2042090a42c",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Entfernt die fest codierte DEMO_ORDERS-Liste; leere Auftragslisten bleiben tatsächlich leer.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "4b5f530a-34ca-4fb3-9a72-1e72985fb65b",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Übersetzt Mitarbeiterbereich, Auftragsstatus, Fehlermeldungen, Team- und Prüfhinweise ins Deutsche.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "7970cdea-c22d-409e-a0fc-9d22294c5fdf",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Liest „Service requested“ mit Fallback auf das bisherige Paketfeld und filtert beispielmarkierte Team-/Prüfdatensätze aus.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "4a47caaa-81c1-4eef-9b4b-ffaf270ebcd8",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Statusänderungen schreiben weiterhin über updateNode; beim Bezahlen wird das tatsächliche Zahlungsdatum gespeichert. Die alte automatische, für individuelle Leistungen nicht belegte Fälligkeitsberechnung wurde entfernt.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "b81e36da-5553-4901-ab4e-cd2e7282dfd8",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Staff-Route und tatsächliche Dateninteraktionen wurden nicht separat im Preview geöffnet.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "c5263cc0-371a-43ce-bd12-ae0542aabde0",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/index.css",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "69574343-7ffd-4d57-99f7-f8c5d9cd2962",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Nur den Kommentar zur visuellen Richtung auf die Marke und den Kundeneinsatz umgeschrieben. Bestehende Rose-/Graphit-Palette blieb erhalten.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "3dee2ac2-308b-45e5-acbb-f2a1fb1cc54f",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/sample-data/runtime.ts und /app/src/sample-data/rows.ts",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "14b3f92f-3252-4d50-a6f0-626d51feb98d",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Beide Dateien wurden gelöscht, nachdem eine Suche ergab, dass der Laufzeitcode nur von der inzwischen entfernten App-Importstelle benutzt wurde. Damit werden die browserseitigen lokalen Beispielauftragsdaten nicht mehr in die App injiziert.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "ccfca6b7-93f5-491d-b1e6-da6539c4f072",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Bestehender Agent ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Vitate Bewerbungshelfer",
+                              "attributes": {
+                                "link": "https://www.taskade.com/agent/01M76BGCF8T8NQEDR129T15YDQ"
+                              }
+                            },
+                            {
+                              "insert": ", weiterhin öffentlich und mit „Service guide“ als Wissensquelle verbunden.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "bb80a425-5e51-440e-8fcc-bf56c282954a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Name, Begrüßung, Starterfragen und Systemanweisungen wurden deutsch und markengerecht aktualisiert.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "faaae92f-2faf-4030-84f3-a587dbd73e65",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Zusätzliche Anweisung: Einträge mit „Sample data“ sind nur Beispiele und dürfen nicht als aktuelle Leistungen, Preise oder Bearbeitungsfristen ausgegeben werden. Solange keine unmarkierten Angebotsangaben existieren, soll der Agent das offen sagen.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f0fe9d0a-15fa-49a2-8110-7d6bf14785a4",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Orders",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/e5U6GqDFbNC3knaF"
+                              }
+                            },
+                            {
+                              "insert": ": leer; bestehende Felder umfassen Kund:in, E-Mail, Paket, Status, Datei, Zielposition, Stellenlink und Fälligkeit. Erfolgreich ergänzt wurde das Textfeld „Service requested“.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "67143b2b-8e92-4bf7-ae2a-6eb4d5e4f181",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Writers",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/YDK5JEC9oADeJMCt"
+                              }
+                            },
+                            {
+                              "insert": ": sechs beispielmarkierte Einträge wurden erfolgreich entfernt; Projekt ist leer.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "1a77f4ee-1111-4363-95c7-c27bc1f6091b",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Service guide",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/Y2BYLspCw2uzL5LL"
+                              }
+                            },
+                            {
+                              "insert": ": fünf Beispielzeilen (drei Angebote und zwei Anweisungen) blieben bestehen, weil der Löschaufruf als abgelehnt zurückkam. Die Kundenansicht filtert sie aus; der Agent soll sie ignorieren.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "c06b5387-0982-4e75-99ff-db562324cdd9",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Felder: Business days (Zahl), Price (USD-Zahl), Sample data (Text), What is included (Text).",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "c6724819-07a7-484c-bbec-aee7c0bdd43d",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Issues",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/y5JXMtf6M1NK9Rcv"
+                              }
+                            },
+                            {
+                              "insert": ": leer; Felder umfassen Sample data, Type, Issue, Order und Quoted line.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "917bd1c6-3883-48e0-88df-cfbcf155ab96",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Proofread new resume files",
+                              "attributes": {
+                                "link": "https://www.taskade.com/flows/01M76BGCF93NRSM3D7VZ2XSZJC"
+                              }
+                            },
+                            {
+                              "insert": ": deaktiviert; Task-added-Auslöser für ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Orders",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/e5U6GqDFbNC3knaF"
+                              }
+                            },
+                            {
+                              "insert": ", Dateitext-Extraktion, Agent-Prüfung und Schreiben von ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Issues",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/y5JXMtf6M1NK9Rcv"
+                              }
+                            },
+                            {
+                              "insert": ".",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "0d34fec6-d511-4a71-9d5c-0839a2436b5a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Friday delivery recap",
+                              "attributes": {
+                                "link": "https://www.taskade.com/flows/01M76BGCF9KJYTSX79Z9A6Z88Q"
+                              }
+                            },
+                            {
+                              "insert": ": deaktiviert; wöchentliche Suche, Formatierung und interne E-Mail-Zusammenfassung.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "9f30ba16-91ca-4312-b7eb-af91ef32e2c3",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Weekday deadline alert",
+                              "attributes": {
+                                "link": "https://www.taskade.com/flows/01M76BGCF9NDJC2DFD0ZZSE225"
+                              }
+                            },
+                            {
+                              "insert": ": deaktiviert; wöchentliche Suche, Formatierung und interne E-Mail-Erinnerung.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "e1056676-d591-45ff-973a-c7f939d8d5e1",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Alle drei benutzen interne Taskade-Integrationen; keine Drittanbieter-Kontoverbindung ist dafür erforderlich. Ihre Aktivierung oder Konfiguration wurde nicht angefragt und nicht geändert.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "b99c1308-5fc4-4cfd-8ec4-b4726bfcef94",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/lib/genesis-auth.tsx: Auth-Helfer und Rollenverhalten.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "20b06d4a-48ba-48ea-87c2-a65f076fb7bc",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/main.tsx: Theme-Provider und App-Mount.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f68464e1-06a9-40de-afb0-49addd2530a8",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/lib/genesis-data/fields.ts: kanonische Feldlesehelfer.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "64f70460-bf55-4d9d-b945-5c602c9ddc05",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/components/blocks/README.md, agent-chat/FloatingAgentChat.tsx und ai-assistant/AIAssistantPanel.tsx: Chat-Props und erforderliche Lokalisierungslabels.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "1ea3bb4a-8942-4787-b769-e57f14e34f26",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/lib/agent-chat/README.md: Legacy-SDK-Dokumentation, als veraltet markiert; der vorhandene Chat-Block wurde beibehalten.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "06842b34-eefa-4370-b960-92da261099ba",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Projektumrisse, Agentendatei, Flow-Dateien und /dna-map.json wurden zur Bestandsaufnahme gelesen.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "88f26edd-4e2d-442b-9fee-e017649df78c",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Es wurde ein TASKS.md-Memory-Projekt angelegt. Seine Requirements stehen noch auf [0/3] und OPEN; Knowledge- und Done-Einträge wurden noch nicht nachgetragen.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "6930e169-1489-4b96-8c4d-c3d841abae9d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "All user messages:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "ed1f86f6-9384-4c0b-afe0-74c786eb85c7",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Original: „Machen Sie diese App zu meiner. Stellen Sie mir zuerst ein paar kurze Fragen.“",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "1aaa6c8a-d4f4-47c9-baa3-bcd53c7d030f",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Antworten auf die Fragen:",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "e71d5ef4-3d37-4c63-a2f3-097e050ee621",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Name/Marke: „Enviar seu Curriculo Vitate“",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "2c4ba0bd-4c4e-42e8-ad23-97bdcb34dde5",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Daten: „Trocar pelos meus próprios dados“",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "93761058-2bcd-4e93-8772-684f9549d8ff",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Publikum: „Os meus clientes“",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "60adf557-5856-489a-9fd4-fb6471dceea5",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Pending Tasks:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "d1e7a7b4-be0d-4bc4-a84a-23ca6e52efad",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Die gemeldete Opazitätswarnung auf der Startseite untersuchen und beheben; danach app_logs_review erneut ausführen.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "c2a1e6c3-3c46-4796-a897-8aba2bad77bd",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "App-Status und Layout prüfen; anschließend nur nach sauberem Render die erforderliche Designprüfung für die geänderten Seiten ausführen.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "fd8533a7-041a-4f56-a60d-38c89804bfd1",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Kundeneingabe und Mitarbeiterroute bleiben ohne tatsächlichen Klick-/Formular-Test unbestätigt. Keine Testanfrage wurde geschrieben.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "3e46aa07-da31-4cfb-bb34-627c029817f6",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Den Zugangsvorschlag für eingeladene Mitarbeitende mit öffentlicher Kundenanfrage und öffentlicher Angebotsansicht noch erstellen. Falls übernommen, Owner-Schritt zum Hinzufügen von Personen erklären.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "3f79ede0-a2d7-4946-a46c-a42ccfd9a8c1",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "TASKS.md",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/bq7CVzxSrqA7MFeQ"
+                              }
+                            },
+                            {
+                              "insert": " in Requirements/Knowledge/Done aktualisieren und den Status der drei Anforderungen anhand tatsächlicher Evidenz festhalten.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "1b140649-4875-4b70-bf96-6600de4852fd",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Die echten Leistungen, Preise und Bearbeitungszeiten fehlen. Die Beispielangebote nicht erneut löschen, da der Löschversuch abgelehnt wurde.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "61f09168-701e-41f7-93b2-19fafa20d0ea",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Vorhandene Flows sind weiterhin deaktiviert; sie wurden nicht im Rahmen dieser Personalisierung geändert.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "135408ec-1300-4389-9cb6-58d5a9feb8c4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Current Work:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "31ce6008-a42b-4faa-8e71-8a0749e563fa",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Unmittelbar vor der Zusammenfassung wurde die App-Prüfung ausgeführt. Sie meldete einen gerenderten App-Mount, aber die Hauptseite / sei wegen opacity is 0 unsichtbar. Dieses Problem ist offen und muss zuerst untersucht werden.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "b8687e87-f17e-40ad-8729-e42acaeb171a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Letzte Änderungen vor dieser Prüfung:",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": true,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "301d821b-6a88-4454-9e2d-2ddd79cc6072",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Mitarbeiter- und Kundentexte auf Deutsch umgestellt.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "5692d7b3-85b0-4ff0-a157-9073fe8e2068",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "HomePage auf projektbasierte, nicht beispielmarkierte Angebote und freie Kundenanfragen umgestellt.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "e7346ec3-d1c8-4e9f-91db-5bb719880400",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "StaffPage von fest codierten Demo-Aufträgen befreit.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "03e0dd0e-b5ac-4c53-850a-7adc8708859d",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "App.tsx so angepasst, dass die Kundenroute offen bleibt und nur der Mitarbeiterbereich GenesisAuth verwendet.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "3ebb5f00-0a61-4165-9469-047189bab1dc",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Lokale Laufzeit-Beispieldaten entfernt.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "id": "4273395f-1fd0-4dbf-8080-18b72aceff22",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "„",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "Vitate Bewerbungshelfer",
+                                  "attributes": {
+                                    "link": "https://www.taskade.com/agent/01M76BGCF8T8NQEDR129T15YDQ"
+                                  }
+                                },
+                                {
+                                  "insert": "“ angewiesen, „Sample data“-Zeilen nicht als reale Angebotsdaten auszugeben.",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "27ff2fd6-598f-4f3b-a6fc-ac11662cac89",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Ein kurzer Status vor der Prüfung lautete: „Die Daten sind vorbereitet: Beispiel-Writer sind entfernt, und Aufträge können jetzt die gewünschte Leistung speichern. Die Entfernung der Beispielangebote wurde abgelehnt; sie bleiben im Projekt, werden aber nicht als echte Angebote angezeigt.“",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "1345c708-7dad-4be9-9348-23d1138d9f1b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Optional Next Step:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "40c4956c-7b21-4900-89f1-a8082d63c0fa",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Zuerst die Unsichtbarkeitswarnung untersuchen, ohne Beispielzeilen im „Service guide“ erneut zu löschen. Relevante Prüfmeldung, wörtlich: „App rendered but its content is invisible: main.min-h-screen.overflow-hidden.pb-20 opacity is 0.“",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "c67c6d50-763b-431d-86da-316f7617d909",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Das folgt direkt aus dem offenen App-Preview-Problem und der ursprünglichen Bitte, die App zu personalisieren; die App darf erst nach einer sauberen erneuten Prüfung als gerendert oder fertig beschrieben werden.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "10000000-0000-4000-8000-000000000006",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Knowledge",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "e9ddba82-761f-4dc4-933f-190439b15f1b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-11-11 23:37 UTC - Zugriffsvorschlag für den Entwurf: Bei Veröffentlichung ist „Nur eingeladene Personen“ vorgeschlagen; Orders bleibt öffentliche Kundeneingabe und Service guide öffentliche Ansicht. Writers und Issues bleiben laut Vorschlag öffentlich, sind aktuell aber leer. Die drei vorhandenen Flows benötigen keine externe Kontoverbindung und bleiben deaktiviert.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9568f361-89d8-430a-bb9b-1e27fd24a945",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-11-11 23:33 UTC - Key Technical Concepts [chat HQBZY4ZM2Q73]",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "7783c990-5dd6-472e-a05b-f0578ec961c2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Key Technical Concepts:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "0ad48f43-f018-4d6c-9393-b6619dc21420",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Genesis-App mit React, TypeScript, React Router, Tailwind und Taskade-Projekten als Datenbank.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "e916776f-d07b-4298-94c5-bc6169dbb843",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Kundenformular schreibt direkt mit createNode in „",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Orders",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/e5U6GqDFbNC3knaF"
+                              }
+                            },
+                            {
+                              "insert": "“ und lädt Dateien über uploadFile hoch. Es wird kein Formular-Flow als zweiter Schreiber verwendet.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "71264697-c03d-4047-82fe-313ba51b3f71",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Öffentliche Kundenroute /, Mitarbeiterroute /staff; GenesisAuth ist jetzt nur innerhalb der Mitarbeiterroute vorgesehen.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f10880e7-fc40-411c-a0a6-bc434ac1dcb2",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Angebotsanzeige liest „",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Service guide",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/Y2BYLspCw2uzL5LL"
+                              }
+                            },
+                            {
+                              "insert": "“ mit useLiveNodes, den Feldhelfern getFieldValue, getFieldNumber und getTitle, und filtert Datensätze mit einem ausgefüllten Feld „Sample data“ aus.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "bbcd6f0a-80f9-4db1-ae02-cd068071333e",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Der Floating-Agent-Chat wird nicht auf der Formularseite angezeigt, sondern nur angemeldeten Mitarbeitenden auf /staff. Seine UI-Texte sind deutsch.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "557033aa-7348-4ea7-966b-34bd253a5808",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Bestehende Flows sind Taskade-interne Abläufe ohne externe Kontoverbindung. Sie waren laut Workspace-Übersicht deaktiviert und wurden in dieser Bearbeitung nicht geändert.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "c737f517-8ffd-4bf0-af81-e2d4295c0df7",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Kein Ende-zu-Ende-Test der Formularübermittlung wurde ausgeführt. app_logs_review prüft nur den gerenderten Preview-Zustand und bestätigte keine Formularspeicherung.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "29f7fdf1-1b1b-42f7-8aac-ae9e7c7421c2",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Zugriffs"
+                            },
+                            {
+                              "insert": "vorschl",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "a"
+                            },
+                            {
+                              "insert": "g im",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "Ent",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "wur"
+                            },
+                            {
+                              "insert": "f",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "ko",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n"
+                            },
+                            {
+                              "insert": "fi",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "g"
+                            },
+                            {
+                              "insert": "u",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "rie"
+                            },
+                            {
+                              "insert": "r",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t"
+                            },
+                            {
+                              "insert": ":",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " in"
+                            },
+                            {
+                              "insert": "vi",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "te"
+                            },
+                            {
+                              "insert": "-only b",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "i",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "V",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "röff",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "n",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t"
+                            },
+                            {
+                              "insert": "l",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "i"
+                            },
+                            {
+                              "insert": "chu",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ng"
+                            },
+                            {
+                              "insert": "; Or",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "de"
+                            },
+                            {
+                              "insert": "rs",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " b"
+                            },
+                            {
+                              "insert": "l",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ei"
+                            },
+                            {
+                              "insert": "b",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t"
+                            },
+                            {
+                              "insert": " fü",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "r öffentliche "
+                            },
+                            {
+                              "insert": "K",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "un"
+                            },
+                            {
+                              "insert": "deneing",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "a"
+                            },
+                            {
+                              "insert": "b",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "en "
+                            },
+                            {
+                              "insert": "o",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "f"
+                            },
+                            {
+                              "insert": "fen",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " und"
+                            },
+                            {
+                              "insert": " S",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "rvic",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": " ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "g"
+                            },
+                            {
+                              "insert": "uid",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e "
+                            },
+                            {
+                              "insert": "für öffe",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n"
+                            },
+                            {
+                              "insert": "tliche",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " Angebotsanzeige"
+                            },
+                            {
+                              "insert": ".",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "Writer",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "s"
+                            },
+                            {
+                              "insert": " und Issues bleib",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "n lau",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t "
+                            },
+                            {
+                              "insert": "V",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "o"
+                            },
+                            {
+                              "insert": "rs",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ch"
+                            },
+                            {
+                              "insert": "l",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "a"
+                            },
+                            {
+                              "insert": "g öffentlich ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "u"
+                            },
+                            {
+                              "insert": "nd ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "s"
+                            },
+                            {
+                              "insert": "ind derzeit leer",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "."
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "a3276fac-888f-413b-adc5-6912cd2748f9",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Errors and fixes:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "3cf5399b-b6a7-49fd-961d-015fac397d20",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Erstversuch, TASKS.md anzulegen, wurde mit BAD_REQUEST abgewiesen: addons.collapsed war als Boolean statt als erwartetes Objekt angegeben. Die fehlerhaften Addon-Angaben wurden entfernt; der zweite Erstellungsaufruf war erfolgreich.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "cad67bbd-5cdc-498d-a953-2ba70e312ea1",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Ein Versuch, /projects mit dem Dateileser zu öffnen, meldete korrekt, dass es ein Verzeichnis und keine Datei ist. Anschließend wurden Projektumrisse mit Bash aufgelistet und gelesen.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "6944a624-f031-4414-a10b-afb5f241036a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Beim Ersetzen von StaffPage.tsx fand str_replace zunächst keinen exakten Texttreffer und schrieb nichts. Die aktuelle Datei wurde erneut gelesen und der Ersatz danach erfolgreich ausgeführt.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "706e7e36-3fb2-4064-bf8c-2baf96cf4b02",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Beim App-Import wurde useAuth zunächst fälschlich aus @/lib/genesis-auth bezogen. Der Schreibtest meldete einen neuen Typfehler. Import auf react-oidc-context korrigiert.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "4e62ca5b-d70f-4d6f-8a8d-f46875fa46a7",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Derselbe Schreibtest meldete zusätzlich ChevronDown als unbenutzt in HomePage.tsx; der Import wurde entfernt.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "49ceecac-ebe0-4127-bd6f-6b309ca7e699",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Beim Entfernen der Beispielzeilen aus „Service guide“ kam ein Toolergebnis mit „The user declined this call, so it did not run and nothing changed.“ Es wurde nicht erneut versucht; die Zeilen bleiben bestehen.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "dbdaead0-9f62-432b-a9ca-0359246425ab",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Di",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": " ers",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "te Prüfung "
+                            },
+                            {
+                              "insert": "z",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "ig",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "te e"
+                            },
+                            {
+                              "insert": "i",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ne "
+                            },
+                            {
+                              "insert": "Opazitäts",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "warn"
+                            },
+                            {
+                              "insert": "u",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ng "
+                            },
+                            {
+                              "insert": "auf",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " der "
+                            },
+                            {
+                              "insert": "S",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t"
+                            },
+                            {
+                              "insert": "ar",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ts"
+                            },
+                            {
+                              "insert": "ei",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "te"
+                            },
+                            {
+                              "insert": ".",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "E",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ine "
+                            },
+                            {
+                              "insert": "CSS",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "-"
+                            },
+                            {
+                              "insert": "R",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "g",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "el"
+                            },
+                            {
+                              "insert": " setzt ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "d"
+                            },
+                            {
+                              "insert": "i",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e "
+                            },
+                            {
+                              "insert": "Si",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "c"
+                            },
+                            {
+                              "insert": "htbarke",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "it "
+                            },
+                            {
+                              "insert": "de",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "s "
+                            },
+                            {
+                              "insert": "Hauptb",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "er"
+                            },
+                            {
+                              "insert": "ei",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "chs n"
+                            },
+                            {
+                              "insert": "u",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n e"
+                            },
+                            {
+                              "insert": "xp",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "l"
+                            },
+                            {
+                              "insert": "izi",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t "
+                            },
+                            {
+                              "insert": "z",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "u"
+                            },
+                            {
+                              "insert": "rück;",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " die n"
+                            },
+                            {
+                              "insert": "ä",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ch"
+                            },
+                            {
+                              "insert": "s",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t"
+                            },
+                            {
+                              "insert": "e",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "Pr",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "vi",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "w-Prüfu",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n"
+                            },
+                            {
+                              "insert": "g",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "am",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "2026",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "-"
+                            },
+                            {
+                              "insert": "11-11 23:34 UTC m",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "l",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "de"
+                            },
+                            {
+                              "insert": "te",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " ei"
+                            },
+                            {
+                              "insert": "ne",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n "
+                            },
+                            {
+                              "insert": "erfolg",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "reich"
+                            },
+                            {
+                              "insert": "en",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "Re",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n"
+                            },
+                            {
+                              "insert": "der o",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "h"
+                            },
+                            {
+                              "insert": "ne",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "W",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ar"
+                            },
+                            {
+                              "insert": "nunge",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n."
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "3da11adf-7201-4d4e-9186-31a98d7d7bab",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Problem Solving:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": true,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "b8e19b10-2f6d-40bc-812c-4c916210fc6a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Falsche, eingeblendete Beispielaufträge und feste Paketpreise wurden aus den App-Oberflächen entfernt. Die Angebotsseite liest jetzt Angebotsdaten aus dem Projekt und zeigt keine beispielmarkierten Datensätze als aktuelle Leistungen an.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "e0f6dc35-ff64-496d-8301-43e849d13598",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Da keine echten Angebotsnamen, Preise oder Bearbeitungszeiten übermittelt wurden, kann die Leistungsübersicht vorerst leer bleiben; die Kund:innen können stattdessen eine individuelle Anfrage beschreiben.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "85b1d1f1-df90-4632-b80f-a09ed484180b",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Die Service-Guide-Beispiele wurden nicht gelöscht. Die App blendet sie aus, aber sie bleiben im Taskade-Projekt vorhanden. Der Agent wurde angewiesen, sie nicht als aktuelle Fakten zu behandeln.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "39568849-1671-411c-b38d-fee19eab0193",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Das Formular schreibt in eine Datenbankzeile und lädt die Datei vorher in die Taskade-Mediathek. Der Code wurde nicht durch eine tatsächliche Formularübermittlung im Preview validiert.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "25e7157e-88e9-47b8-929b-fbd76f1ed5ce",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Kunden"
+                            },
+                            {
+                              "insert": "sei",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "te und Mitarbeiterroute sind getrennt; "
+                            },
+                            {
+                              "insert": "d",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "er"
+                            },
+                            {
+                              "insert": " Zugriffs",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "v"
+                            },
+                            {
+                              "insert": "o",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "rs"
+                            },
+                            {
+                              "insert": "chlag für Einladung-only ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "i"
+                            },
+                            {
+                              "insert": "s",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t"
+                            },
+                            {
+                              "insert": " für d",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ie "
+                            },
+                            {
+                              "insert": "Ve",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "r"
+                            },
+                            {
+                              "insert": "ö",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ffe"
+                            },
+                            {
+                              "insert": "ntl",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "i"
+                            },
+                            {
+                              "insert": "chu",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n"
+                            },
+                            {
+                              "insert": "g ge",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "s"
+                            },
+                            {
+                              "insert": "peicher",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t"
+                            },
+                            {
+                              "insert": ". Ord",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "rs b",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "l"
+                            },
+                            {
+                              "insert": "eibt öffent",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "l"
+                            },
+                            {
+                              "insert": "iche Ei",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ng"
+                            },
+                            {
+                              "insert": "ab",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": ", Service",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "g",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "u"
+                            },
+                            {
+                              "insert": "i",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "de "
+                            },
+                            {
+                              "insert": "öffe",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n"
+                            },
+                            {
+                              "insert": "tli",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ch"
+                            },
+                            {
+                              "insert": "e",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "A",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n"
+                            },
+                            {
+                              "insert": "s",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "icht"
+                            },
+                            {
+                              "insert": ";",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "Writ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "er"
+                            },
+                            {
+                              "insert": "s",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "und Iss",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "u"
+                            },
+                            {
+                              "insert": "es ble",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "i"
+                            },
+                            {
+                              "insert": "ben l",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "a"
+                            },
+                            {
+                              "insert": "u",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t "
+                            },
+                            {
+                              "insert": "V",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "orschlag"
+                            },
+                            {
+                              "insert": " öff",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "en"
+                            },
+                            {
+                              "insert": "tlich",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "un",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "d "
+                            },
+                            {
+                              "insert": "si",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "nd"
+                            },
+                            {
+                              "insert": " derz",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "i",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t"
+                            },
+                            {
+                              "insert": " leer",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "."
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "40464e9a-28e7-4eae-ab0c-007510f42b78",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Startse",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "i"
+                            },
+                            {
+                              "insert": "t",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e "
+                            },
+                            {
+                              "insert": "wurde",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "zuletz",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t "
+                            },
+                            {
+                              "insert": "erf",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "o"
+                            },
+                            {
+                              "insert": "lgre",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ich "
+                            },
+                            {
+                              "insert": "g",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "r",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "endert"
+                            },
+                            {
+                              "insert": ";",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "F",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "or"
+                            },
+                            {
+                              "insert": "mul",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ar"
+                            },
+                            {
+                              "insert": "üb",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "rm",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "it"
+                            },
+                            {
+                              "insert": "tl",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ung und /staff wurde"
+                            },
+                            {
+                              "insert": "n",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " n"
+                            },
+                            {
+                              "insert": "icht",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " "
+                            },
+                            {
+                              "insert": "s",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "e"
+                            },
+                            {
+                              "insert": "pa",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "r"
+                            },
+                            {
+                              "insert": "at im",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": " Preview "
+                            },
+                            {
+                              "insert": "geöff",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "n"
+                            },
+                            {
+                              "insert": "e",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t "
+                            },
+                            {
+                              "insert": "od",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "er "
+                            },
+                            {
+                              "insert": "durch",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "ge"
+                            },
+                            {
+                              "insert": "klick",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "t."
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "10000000-0000-4000-8000-000000000061",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-11-11 23:22 UTC - Die vorhandene App ist ein Resume-Schreibservice mit Home- und Staff-Seite; öffentliche Kundenaufträge landen in Orders (e5U6GqDFbNC3knaF).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "10000000-0000-4000-8000-000000000062",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Service guide "
+                        },
+                        {
+                          "insert": "ent",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "h"
+                        },
+                        {
+                          "insert": "äl",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "t "
+                        },
+                        {
+                          "insert": "die Felder ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Price ("
+                        },
+                        {
+                          "insert": "Zahl, ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "USD), Business days "
+                        },
+                        {
+                          "insert": "(Zahl),",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " What is included"
+                        },
+                        {
+                          "insert": " (Text) und Sample data (Text)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "; "
+                        },
+                        {
+                          "insert": "bestehende ma",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "r"
+                        },
+                        {
+                          "insert": "k",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "i"
+                        },
+                        {
+                          "insert": "er",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "te"
+                        },
+                        {
+                          "insert": " Bei",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "s"
+                        },
+                        {
+                          "insert": "pielzeilen",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " "
+                        },
+                        {
+                          "insert": "bleiben im Pr",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "o"
+                        },
+                        {
+                          "insert": "j",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e"
+                        },
+                        {
+                          "insert": "k",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "t und "
+                        },
+                        {
+                          "insert": "w",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "er"
+                        },
+                        {
+                          "insert": "d",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e"
+                        },
+                        {
+                          "insert": "n",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " i"
+                        },
+                        {
+                          "insert": "n ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "de"
+                        },
+                        {
+                          "insert": "r",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " "
+                        },
+                        {
+                          "insert": "Kund",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "enan"
+                        },
+                        {
+                          "insert": "sicht",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " aus"
+                        },
+                        {
+                          "insert": "geb",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "l"
+                        },
+                        {
+                          "insert": "endet. Wr",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "i"
+                        },
+                        {
+                          "insert": "t",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e"
+                        },
+                        {
+                          "insert": "rs ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "i"
+                        },
+                        {
+                          "insert": "st na",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "ch "
+                        },
+                        {
+                          "insert": "Entf",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e"
+                        },
+                        {
+                          "insert": "r",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "n"
+                        },
+                        {
+                          "insert": "u",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "n"
+                        },
+                        {
+                          "insert": "g der s",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "ech"
+                        },
+                        {
+                          "insert": "s marki",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e"
+                        },
+                        {
+                          "insert": "r",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "te"
+                        },
+                        {
+                          "insert": "n",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " Beispiel"
+                        },
+                        {
+                          "insert": "zeil",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "en"
+                        },
+                        {
+                          "insert": " le",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e"
+                        },
+                        {
+                          "insert": "r",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "checkbox",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "10000000-0000-4000-8000-000000000063",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Proofreader (01M76BGCF8T8NQEDR129T15YDQ) ist öffentlich und mit Service guide verbunden. Die drei Flows „Proofread new resume files“, „Friday delivery recap“ und „Weekday deadline alert“ verwenden nur Taskade-interne Schritte und sind derzeit deaktiviert.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "checkbox",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🌐"
+    }
+  }
+}

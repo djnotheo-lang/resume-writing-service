@@ -1,0 +1,134 @@
+{
+  "version": "2",
+  "flowTitle": "Weekday deadline alert",
+  "trigger": {
+    "valid": true,
+    "displayName": "Every weekday at 8 AM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "BLANK",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "America/Los_Angeles",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "timeOfDay": "8:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "16b03296-9158-4a57-9f4b-2a4557279b8f",
+      "valid": false,
+      "displayName": "Find orders needing attention",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "tasks.find",
+        "input": {
+          "ruleset": {
+            "type": "or",
+            "value": [
+              {
+                "type": "and",
+                "value": [
+                  {
+                    "id": "86b55d1c-ac60-48a3-a340-87364db7aa3a",
+                    "fieldId": "@stat1",
+                    "condition": "text_matches",
+                    "comparator": "new"
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "value": [
+                  {
+                    "id": "fbeee271-d5f6-4c56-ad1c-babfef5f6bc5",
+                    "fieldId": "@stat1",
+                    "condition": "text_not_matches",
+                    "comparator": "draft"
+                  },
+                  {
+                    "id": "e900beb0-f181-4aae-a234-1f528ae87e37",
+                    "fieldId": "@due01",
+                    "condition": "date_comes_after",
+                    "comparator": "{{ 'now' | date: '%Y-%m-%d' | dateOffset: '-P1D' }}"
+                  },
+                  {
+                    "id": "6b627509-5fcb-434a-b5f4-d70a5897bd85",
+                    "fieldId": "@due01",
+                    "condition": "date_comes_before",
+                    "comparator": "{{ 'now' | date: '%Y-%m-%d' | dateOffset: 'P3D' }}"
+                  }
+                ]
+              }
+            ]
+          },
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "e5U6GqDFbNC3knaF"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "4bc033c2-0cbf-4d0c-8dcf-42aa3f9c50be",
+      "valid": true,
+      "displayName": "Format the order list",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "pieceVersion": "BLANK",
+        "actionName": "transform.arrayIntoString",
+        "input": {
+          "joinMechanism": "new_line",
+          "transformEachItemIntoString": {
+            "array": {
+              "path": [
+                "16b03296-9158-4a57-9f4b-2a4557279b8f",
+                "tasks"
+              ],
+              "type": "reference"
+            },
+            "template": "• {{ currentElement[\"nodeText\"] }}"
+          }
+        }
+      }
+    },
+    {
+      "name": "7b0d5b95-e263-45ad-b1ab-7de3e5bfbdb8",
+      "valid": true,
+      "displayName": "Email the deadline check",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "notify.email",
+        "input": {
+          "body": "Here are the orders to review today:\n{{ 4bc033c2-0cbf-4d0c-8dcf-42aa3f9c50be[\"result\"] }}",
+          "format": "plain",
+          "subject": "Resume orders needing attention",
+          "recipientEmail": "dj.notheo@gmail.com"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "e5U6GqDFbNC3knaF": {
+      "id": "e5U6GqDFbNC3knaF",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

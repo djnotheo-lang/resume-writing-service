@@ -1,0 +1,107 @@
+{
+  "version": "2",
+  "flowTitle": "Friday delivery recap",
+  "trigger": {
+    "valid": true,
+    "displayName": "Every Friday at 5 PM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "BLANK",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "America/Los_Angeles",
+        "dayOfWeek": [
+          "Friday"
+        ],
+        "timeOfDay": "5:00 PM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "7411b29f-4c02-47c6-8a22-d47d311a58ba",
+      "valid": false,
+      "displayName": "Find this week's completed orders",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "tasks.find",
+        "input": {
+          "ruleset": {
+            "type": "or",
+            "value": [
+              {
+                "type": "and",
+                "value": [
+                  {
+                    "id": "380821a8-1427-4c59-a95f-f04a910308b5",
+                    "fieldId": "@stat1",
+                    "condition": "text_matches",
+                    "comparator": "done"
+                  }
+                ]
+              }
+            ]
+          },
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "e5U6GqDFbNC3knaF"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "ad6ac26c-62f5-427a-8ff1-578dd4d651e6",
+      "valid": true,
+      "displayName": "Format the completed order list",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "pieceVersion": "BLANK",
+        "actionName": "transform.arrayIntoString",
+        "input": {
+          "joinMechanism": "new_line",
+          "transformEachItemIntoString": {
+            "array": {
+              "path": [
+                "7411b29f-4c02-47c6-8a22-d47d311a58ba",
+                "tasks"
+              ],
+              "type": "reference"
+            },
+            "template": "• {{ currentElement[\"nodeText\"] }}"
+          }
+        }
+      }
+    },
+    {
+      "name": "05f223b8-4077-4d01-ac54-e7d920f50c87",
+      "valid": true,
+      "displayName": "Email the weekly delivery recap",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "notify.email",
+        "input": {
+          "body": "This week's completed resume orders:\n{{ ad6ac26c-62f5-427a-8ff1-578dd4d651e6[\"result\"] }}",
+          "format": "plain",
+          "subject": "Weekly resume delivery recap",
+          "recipientEmail": "dj.notheo@gmail.com"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "e5U6GqDFbNC3knaF": {
+      "id": "e5U6GqDFbNC3knaF",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

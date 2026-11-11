@@ -1,0 +1,201 @@
+{
+  "version": "2",
+  "flowTitle": "Proofread new resume files",
+  "trigger": {
+    "valid": false,
+    "displayName": "When a new order arrives",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "BLANK",
+      "triggerName": "task.added",
+      "input": {
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "e5U6GqDFbNC3knaF"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "6c963fa8-8c08-4b3a-bd52-aa10583a7f1a",
+      "valid": true,
+      "displayName": "Only continue when a resume file is attached",
+      "type": "FILTER",
+      "settings": {
+        "input": {
+          "type": "or",
+          "value": [
+            {
+              "type": "and",
+              "value": []
+            }
+          ]
+        },
+        "inputUiInfo": {}
+      }
+    },
+    {
+      "name": "51d2d7b4-0fc1-4f1a-8d5b-f888812730b3",
+      "valid": true,
+      "displayName": "Turn the resume into text",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "BLANK",
+        "actionName": "pdf.convertToText",
+        "input": {
+          "pdfUrl": "{{ trigger[\"e5U6GqDFbNC3knaF/fields/@file1\"] }}"
+        }
+      }
+    },
+    {
+      "name": "a4c2a153-bf1b-48b7-8554-a1551d72fa09",
+      "valid": false,
+      "displayName": "Ask Proofreader for potential issues",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.ask",
+        "input": {
+          "input": "Review this resume text. Return only potential issues in the requested structured format. Resume text: {{ 51d2d7b4-0fc1-4f1a-8d5b-f888812730b3[\"content\"] }}",
+          "output": {
+            "type": "object",
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "required": [
+              "issues"
+            ],
+            "properties": {
+              "issues": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "issue",
+                    "type",
+                    "quotedLine"
+                  ],
+                  "properties": {
+                    "type": {
+                      "enum": [
+                        "Typo",
+                        "Tense",
+                        "Missing date",
+                        "Weak bullet",
+                        "Format"
+                      ],
+                      "type": "string"
+                    },
+                    "issue": {
+                      "type": "string"
+                    },
+                    "quotedLine": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01M76BGCF8T8NQEDR129T15YDQ"
+          },
+          "outputType": "structuredoutput"
+        }
+      }
+    },
+    {
+      "name": "b19ee05d-5ae2-4dd4-99b8-e6f5c0b5d66a-outer",
+      "valid": true,
+      "displayName": "Create an issue for each finding",
+      "type": "LOOP",
+      "settings": {},
+      "iteration": {
+        "name": "b19ee05d-5ae2-4dd4-99b8-e6f5c0b5d66a",
+        "valid": true,
+        "displayName": "Create an issue for each finding Iteration",
+        "type": "LOOP_ITERATION",
+        "loopVariable": {
+          "type": "reference",
+          "path": [
+            "a4c2a153-bf1b-48b7-8554-a1551d72fa09",
+            "issues"
+          ]
+        },
+        "actions": [
+          {
+            "name": "3f3b4e9e-8dab-45af-8a55-0a2bafd95d73",
+            "valid": false,
+            "displayName": "Add the issue to the private log",
+            "type": "PIECE",
+            "settings": {
+              "pieceName": "@taskade/automade-internalpiece-taskade",
+              "pieceVersion": "BLANK",
+              "actionName": "task.create",
+              "input": {
+                "fields": {
+                  "@type1": {
+                    "data": {
+                      "value": "{{ b19ee05d-5ae2-4dd4-99b8-e6f5c0b5d66a-loop[\"currentElement\"] }}"
+                    },
+                    "rank": "3",
+                    "fieldId": "@type1"
+                  },
+                  "@issue1": {
+                    "data": {
+                      "value": "{{ b19ee05d-5ae2-4dd4-99b8-e6f5c0b5d66a-loop[\"currentElement\"] }}"
+                    },
+                    "rank": "2",
+                    "fieldId": "@issue1"
+                  },
+                  "@order1": {
+                    "data": {
+                      "value": "{{ trigger[\"nodeText\"] }}"
+                    },
+                    "rank": "1",
+                    "fieldId": "@order1"
+                  },
+                  "@quote1": {
+                    "data": {
+                      "value": "{{ b19ee05d-5ae2-4dd4-99b8-e6f5c0b5d66a-loop[\"currentElement\"] }}"
+                    },
+                    "rank": "0",
+                    "fieldId": "@quote1"
+                  }
+                },
+                "content": "Potential issue: {{ b19ee05d-5ae2-4dd4-99b8-e6f5c0b5d66a-loop[\"currentElement\"] }}",
+                "projectId": {
+                  "type": "flow-template-variable-input-type",
+                  "id": "y5JXMtf6M1NK9Rcv"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "variables": {
+    "e5U6GqDFbNC3knaF": {
+      "id": "e5U6GqDFbNC3knaF",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "01M76BGCF8T8NQEDR129T15YDQ": {
+      "id": "01M76BGCF8T8NQEDR129T15YDQ",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "y5JXMtf6M1NK9Rcv": {
+      "id": "y5JXMtf6M1NK9Rcv",
+      "rank": "s",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}
